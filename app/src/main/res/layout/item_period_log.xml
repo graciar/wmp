@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@android:color/white"
+    android:layout_marginBottom="8dp"
+    android:elevation="4dp">
+
+    <!-- Start Date Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="4dp">
+
+        <TextView
+            android:id="@+id/start_date_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Start Date:"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Selected"
+            android:textSize="14sp"
+            android:textColor="#777777" />
+    </LinearLayout>
+
+    <!-- End Date Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="4dp">
+
+        <TextView
+            android:id="@+id/end_date_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="End Date:"
+            android:textSize="14sp"
+            android:textColor="#555555"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/end_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Selected"
+            android:textSize="14sp"
+            android:textColor="#777777" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.256">
+
+        <!-- App title or tagline -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Welcome Back!"
+            android:textAlignment="center"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/user_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ems="10"
+            android:hint="username"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Password input field -->
+        <EditText
+            android:id="@+id/pass_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <!-- Login button -->
+        <Button
+            android:id="@+id/login_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/purple"
+            android:padding="16dp"
+            android:text="Log In"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <!-- Redirect to signup -->
+        <TextView
+            android:id="@+id/signup_redirect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Don't have an account? Sign up"
+            android:textAlignment="center"
+            android:textColor="@color/brown"
+            android:textStyle="bold" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860400635805",
+    "project_id": "wmpp-de0a2",
+    "storage_bucket": "wmpp-de0a2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860400635805:android:8260a918e663312099a974",
+        "android_client_info": {
+          "package_name": "com.example.projectwmp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPA_tO5C0Pkb4hv2uEh202f-zxAfp3q3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupActivity"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="24dp"
+        android:layout_marginTop="32dp">
+
+        <!-- Signup Title -->
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Your Account"
+            android:textSize="24sp"
+            android:textColor="@color/brown"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Username Field -->
+        <EditText
+            android:id="@+id/user_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp" />
+
+        <!-- Email Field -->
+        <EditText
+            android:id="@+id/email_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="16dp"
+            android:textSize="16sp" />
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/pass_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="24dp"
+            android:textSize="16sp" />
+
+        <!-- Signup Button -->
+        <Button
+            android:id="@+id/signup_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:backgroundTint="@color/purple"
+            android:textColor="@android:color/white"
+            android:padding="16dp"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Already Have Account Text -->
+        <TextView
+            android:id="@+id/direct_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Log In"
+            android:textColor="@color/brown"
+            android:textSize="14sp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
